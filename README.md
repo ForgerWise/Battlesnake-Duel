@@ -23,9 +23,13 @@ In my college's PBL (Problem-Based Learning) class, we were tasked with creating
 
 If you are interested in how the snake work and some introduce about it. Please visit the [article](https://medium.com/asymptoticlabs/battlesnake-post-mortem-a5917f9a3428) by Cory Binnersley. Thanks to him, most of train.py's code is from their [example notebook](https://colab.research.google.com/drive/19Rz916XaYRlq9sOgi8VtXdHgOMkysw2M?usp=sharing).
 
-You can have a trial by using their notebook in Google Colab. Or use starter pack and replace main.py as mine. And put all the file into the pack.
+For gym and PPO implementation, I use the same repository as the article.
 
-If you want to train your model by yourself, please note that in gym_battlesnake/src/gameinstance.cpp, from line 96, the logic of up and down is written in a wrong way. You can fix it and use 0 as up and 1 as down in main.py. Or dismiss it and use my main.py without changes.
+Here is the url of [Gym](https://github.com/cbinners/gym-battlesnake) and [PPO](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail).
+
+You can have a trial by using the notebook in Google Colab. Or use starter pack and replace main.py as mine. Add your own rule-based algorithm and put all other files into the folder.
+
+If you want to train your model by yourself, please note that in gym_battlesnake/src/gameinstance.cpp, from line 96 to 103, the logic of up and down is written in a opposite way. You can fix it and change 0 as up and 1 as down in main.py. Or ignore it and use my main.py without changing anything.
 
 ## Strategy
 
