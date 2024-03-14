@@ -33,7 +33,7 @@ When training, I set opponent as one. And update the model's state when the win 
 
 $$ SE = 1.96 \sqrt{\frac{0.5 \times 0.5}{1000}} =0.03099... $$
 
-So the win rate should be more then $50\% + 3.099\% \approx 53\%$.
+So the win rate should be more then $`50\% + 3.099\% \approx 53\%`$.
 
 But I am not sure I can use this formula in this case. Because the win rate is not(or may not be) a normal distribution. So I just use it as a reference.
 
